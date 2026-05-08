@@ -5,7 +5,7 @@
 			<value>forest ambient</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{799dcd9e-decf-43fd-bea9-8ad4828040e5}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{65bfc881-5f4a-428f-b9cb-280e31b1730d}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{dd7e4bdf-383b-4907-9f9e-80d01cae0fd8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{c6d1233d-6738-4249-bf18-06cbed72c229}">
@@ -110,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{c8fe9264-4127-4620-be84-a0a6509267c8}">
 		<relationship name="effects">
 			<destination>{a01d9bee-637d-4ac3-83ee-bffebdf1b3e6}</destination>
-			<destination>{c697fb01-a019-425c-9420-db51e7ca082e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c817fa4d-52dd-4d66-99d6-53b7820c7377}" />
@@ -122,6 +124,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{3b64395f-9a56-448c-bb2d-dc6b50f5ee51}" />
 	<object class="MixerBusFader" id="{a01d9bee-637d-4ac3-83ee-bffebdf1b3e6}" />
-	<object class="SpatialiserEffect" id="{c697fb01-a019-425c-9420-db51e7ca082e}" />
 	<object class="MixerBusFader" id="{7e3733a8-3697-4ae6-87e0-3d0039412e2d}" />
 </objects>

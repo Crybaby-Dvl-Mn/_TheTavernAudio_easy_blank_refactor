@@ -1,5 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7313628557302708316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/door open
+  m_EditorClassIdentifier: 
+  Path: event:/door open
+  Guid:
+    Data1: 1047710890
+    Data2: 1080706861
+    Data3: -331868231
+    Data4: -723155989
+  Banks:
+  - {fileID: -2404304705403484991}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1789
+--- !u!114 &-3937508934423736657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/New Folder/fireplace
+  m_EditorClassIdentifier: 
+  Path: event:/New Folder/fireplace
+  Guid:
+    Data1: 2057059135
+    Data2: 1195748340
+    Data3: 1086633609
+    Data4: -2029722705
+  Banks:
+  - {fileID: -2404304705403484991}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 239491
 --- !u!114 &-2404304705403484991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,11 +69,38 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639138515965447110
+  lastModified: 639138538049879576
   FileSizes:
   - Name: Desktop
-    Value: 1074
+    Value: 5448192
   Exists: 1
+--- !u!114 &-2370233570350753342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/lyre usic
+  m_EditorClassIdentifier: 
+  Path: event:/lyre usic
+  Guid:
+    Data1: -383728594
+    Data2: 1293760651
+    Data3: 1911251641
+    Data4: 1526538343
+  Banks:
+  - {fileID: -2404304705403484991}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 47600
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,15 +116,54 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 8797378393574662200}
   - {fileID: -2404304705403484991}
-  EditorEvents: []
+  EditorEvents:
+  - {fileID: -2370233570350753342}
+  - {fileID: -3937508934423736657}
+  - {fileID: -7313628557302708316}
+  - {fileID: 240313593880830692}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2404304705403484991}
   StringsBanks:
   - {fileID: 8797378393574662200}
   cacheVersion: 131859
-  cacheTime: 639138515965467113
-  SerializableEventsDict: []
+  cacheTime: 639138538049879576
+  SerializableEventsDict:
+  - key: event:/lyre usic
+    index: 0
+  - key: event:/New Folder/fireplace
+    index: 1
+  - key: event:/door open
+    index: 2
+  - key: event:/forest ambient
+    index: 3
+--- !u!114 &240313593880830692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/forest ambient
+  m_EditorClassIdentifier: 
+  Path: event:/forest ambient
+  Guid:
+    Data1: 1357924048
+    Data2: 1192124777
+    Data3: 1954791560
+    Data4: -1700053485
+  Banks:
+  - {fileID: -2404304705403484991}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 121250
 --- !u!114 &8797378393574662200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,8 +179,8 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639138515965467113
+  lastModified: 639138538049879576
   FileSizes:
   - Name: Desktop
-    Value: 724
+    Value: 918
   Exists: 1
