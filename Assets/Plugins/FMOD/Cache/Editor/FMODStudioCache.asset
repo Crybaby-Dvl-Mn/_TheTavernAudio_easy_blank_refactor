@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: ProjectSettings/FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639144528485957271
+  lastModified: 639144574023236874
   FileSizes:
   - Name: Desktop
-    Value: 1014
+    Value: 1104
   Exists: 1
 --- !u!114 &-7536711130782799942
 MonoBehaviour:
@@ -62,10 +62,10 @@ MonoBehaviour:
   Path: ProjectSettings/FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639144528485947238
+  lastModified: 639144574023221462
   FileSizes:
   - Name: Desktop
-    Value: 8890496
+    Value: 11198400
   Exists: 1
 --- !u!114 &-7313628557302708316
 MonoBehaviour:
@@ -94,6 +94,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1789
+--- !u!114 &-6040040833390237420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/rpg music
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/rpg music
+  Guid:
+    Data1: -1767273105
+    Data2: 1125173374
+    Data3: -1568819310
+    Data4: -32788226
+  Banks:
+  - {fileID: -7536711130782799942}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 82337
 --- !u!114 &-3937508934423736657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,13 +271,15 @@ MonoBehaviour:
   - {fileID: 7538381720997493278}
   - {fileID: -1260698425750430929}
   - {fileID: -8326742305547672594}
+  - {fileID: 8661821473020294787}
+  - {fileID: -6040040833390237420}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7536711130782799942}
   StringsBanks:
   - {fileID: -8211460664620915187}
   cacheVersion: 131859
-  cacheTime: 639144528485957271
+  cacheTime: 639144574023236874
   SerializableEventsDict:
   - key: event:/lyre usic
     index: 0
@@ -264,6 +293,10 @@ MonoBehaviour:
     index: 4
   - key: event:/wood foostep
     index: 5
+  - key: event:/tavern ambient loop
+    index: 6
+  - key: event:/rpg music
+    index: 7
 --- !u!114 &240313593880830692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,6 +405,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 121250
+--- !u!114 &8661821473020294787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/tavern ambient loop
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/tavern ambient loop
+  Guid:
+    Data1: -694893901
+    Data2: 1196136804
+    Data3: -78245473
+    Data4: 110931458
+  Banks:
+  - {fileID: -7536711130782799942}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 120000
 --- !u!114 &8797378393574662200
 MonoBehaviour:
   m_ObjectHideFlags: 0

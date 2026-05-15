@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{383b05fd-ca9d-4fef-b297-63fd3ec1b8a3}">
+		<property name="assetPath">
+			<value>rpg music.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>82.337959183673476</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3ba66a83-ae70-4863-8c38-2b2fd7ac9f34}</destination>
+		</relationship>
+	</object>
+</objects>
