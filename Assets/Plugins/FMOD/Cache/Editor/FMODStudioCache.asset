@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ProjectSettings/FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639167770326130640
+  lastModified: 639167775123650573
   FileSizes:
   - Name: Desktop
-    Value: 1366
+    Value: 1476
   Exists: 1
 --- !u!114 &-7660703093805128661
 MonoBehaviour:
@@ -62,10 +62,10 @@ MonoBehaviour:
   Path: ProjectSettings/FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639167770326120587
+  lastModified: 639167775123640530
   FileSizes:
   - Name: Desktop
-    Value: 9878368
+    Value: 11950528
   Exists: 1
 --- !u!114 &-7313628557302708316
 MonoBehaviour:
@@ -303,13 +303,15 @@ MonoBehaviour:
   - {fileID: 8239665491643350924}
   - {fileID: -982396919668986659}
   - {fileID: -3184765221567076114}
+  - {fileID: 8389625622453639144}
+  - {fileID: 6261820643557329576}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7536711130782799942}
   StringsBanks:
   - {fileID: -8211460664620915187}
   cacheVersion: 131859
-  cacheTime: 639167770326130640
+  cacheTime: 639167775123650573
   SerializableEventsDict:
   - key: event:/Fireplace/fireplace2
     index: 0
@@ -333,6 +335,10 @@ MonoBehaviour:
     index: 9
   - key: event:/Jump/New Event
     index: 10
+  - key: event:/Ambient/Tavern Ambient
+    index: 11
+  - key: event:/Mice/New Event
+    index: 12
 --- !u!114 &240313593880830692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,6 +474,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 239491
+--- !u!114 &6261820643557329576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mice/New Event
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Mice/New Event
+  Guid:
+    Data1: 1965615263
+    Data2: 1286413723
+    Data3: 280951425
+    Data4: 1433133746
+  Banks:
+  - {fileID: -7536711130782799942}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13444
 --- !u!114 &8239665491643350924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -495,6 +528,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &8389625622453639144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/Tavern Ambient
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambient/Tavern Ambient
+  Guid:
+    Data1: 193477990
+    Data2: 1121716782
+    Data3: -536396641
+    Data4: 1926167546
+  Banks:
+  - {fileID: -7536711130782799942}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 120000
 --- !u!114 &8797378393574662200
 MonoBehaviour:
   m_ObjectHideFlags: 0
