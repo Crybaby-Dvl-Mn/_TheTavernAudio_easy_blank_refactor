@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ProjectSettings/FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639167750666079452
+  lastModified: 639167770326130640
   FileSizes:
   - Name: Desktop
-    Value: 1396
+    Value: 1366
   Exists: 1
 --- !u!114 &-7660703093805128661
 MonoBehaviour:
@@ -62,10 +62,10 @@ MonoBehaviour:
   Path: ProjectSettings/FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639167750666064389
+  lastModified: 639167770326120587
   FileSizes:
   - Name: Desktop
-    Value: 9863424
+    Value: 9878368
   Exists: 1
 --- !u!114 &-7313628557302708316
 MonoBehaviour:
@@ -175,6 +175,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1250
+--- !u!114 &-3184765221567076114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Jump/New Event
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Jump/New Event
+  Guid:
+    Data1: 2041939848
+    Data2: 1290076727
+    Data3: -878005064
+    Data4: 1318491457
+  Banks:
+  - {fileID: -7536711130782799942}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
 --- !u!114 &-2404304705403484991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,18 +298,18 @@ MonoBehaviour:
   - {fileID: 3965105170719649140}
   - {fileID: 4189229734673010295}
   - {fileID: -7660703093805128661}
-  - {fileID: 544131833847617140}
   - {fileID: 8804236679181093575}
   - {fileID: -3352668231171619967}
   - {fileID: 8239665491643350924}
   - {fileID: -982396919668986659}
+  - {fileID: -3184765221567076114}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7536711130782799942}
   StringsBanks:
   - {fileID: -8211460664620915187}
   cacheVersion: 131859
-  cacheTime: 639167750666079452
+  cacheTime: 639167770326130640
   SerializableEventsDict:
   - key: event:/Fireplace/fireplace2
     index: 0
@@ -296,15 +323,15 @@ MonoBehaviour:
     index: 4
   - key: event:/Footstep/wood foostep
     index: 5
-  - key: event:/Jump/667299__pekena_larva__voc_male_land_03
-    index: 6
   - key: event:/Mice/mice
-    index: 7
+    index: 6
   - key: event:/Footstep/New Event
-    index: 8
+    index: 7
   - key: snapshot:/Outside
-    index: 9
+    index: 8
   - key: event:/Doors/door open
+    index: 9
+  - key: event:/Jump/New Event
     index: 10
 --- !u!114 &240313593880830692
 MonoBehaviour:
@@ -333,33 +360,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 121250
---- !u!114 &544131833847617140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Jump/667299__pekena_larva__voc_male_land_03
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Jump/667299__pekena_larva__voc_male_land_03
-  Guid:
-    Data1: -344921760
-    Data2: 1094829498
-    Data3: -1483801711
-    Data4: -1317168792
-  Banks:
-  - {fileID: -7536711130782799942}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1500
 --- !u!114 &1418719638979566941
 MonoBehaviour:
   m_ObjectHideFlags: 0

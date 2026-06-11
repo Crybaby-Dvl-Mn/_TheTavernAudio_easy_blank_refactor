@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{fc507fc0-50f0-4e37-8afa-11c40ce001da}">
+		<property name="assetPath">
+			<value>380471__acebrian__jump.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.31346938775510202</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3ba66a83-ae70-4863-8c38-2b2fd7ac9f34}</destination>
+		</relationship>
+	</object>
+</objects>
