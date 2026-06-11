@@ -1393,7 +1393,7 @@ MonoBehaviour:
       Data2: 1224589912
       Data3: 845490324
       Data4: -683175368
-    Path: event:/fireplace2
+    Path: event:/Fireplace/fireplace2
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -2594,7 +2594,7 @@ MonoBehaviour:
       Data2: 1151372846
       Data3: -1897422179
       Data4: -343751426
-    Path: event:/wood foostep
+    Path: event:/Footstep/wood foostep
   jumpEvent:
     Guid:
       Data1: 0
@@ -3605,7 +3605,7 @@ MonoBehaviour:
       Data2: 1192124777
       Data3: 1954791560
       Data4: -1700053485
-    Path: event:/forest ambient
+    Path: event:/Ambient/forest ambient
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -3971,7 +3971,7 @@ MonoBehaviour:
       Data2: 1293760651
       Data3: 1911251641
       Data4: 1526538343
-    Path: event:/lyre usic
+    Path: event:/Music/lyre usic
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0

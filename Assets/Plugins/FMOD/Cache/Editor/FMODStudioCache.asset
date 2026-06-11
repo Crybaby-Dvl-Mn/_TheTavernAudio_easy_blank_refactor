@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8326742305547672594
+--- !u!114 &-8350342417408951285
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/wood foostep
+  m_Name: event:/Footstep/340983__soundsaregr8__footstep-on-wood
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/wood foostep
+  Path: event:/Footstep/340983__soundsaregr8__footstep-on-wood
   Guid:
-    Data1: 293702568
-    Data2: 1151372846
-    Data3: -1897422179
-    Data4: -343751426
+    Data1: 1543787219
+    Data2: 1123572879
+    Data3: -1132674908
+    Data4: 203536441
   Banks:
   - {fileID: -7536711130782799942}
   IsStream: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 136
+  Length: 495
 --- !u!114 &-8211460664620915187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,11 +42,38 @@ MonoBehaviour:
   Path: ProjectSettings/FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639144574023236874
+  lastModified: 639167725341376384
   FileSizes:
   - Name: Desktop
-    Value: 1104
+    Value: 1618
   Exists: 1
+--- !u!114 &-7660703093805128661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footstep/wood foostep
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Footstep/wood foostep
+  Guid:
+    Data1: 293702568
+    Data2: 1151372846
+    Data3: -1897422179
+    Data4: -343751426
+  Banks:
+  - {fileID: -7536711130782799942}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 136
 --- !u!114 &-7536711130782799942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,10 +89,10 @@ MonoBehaviour:
   Path: ProjectSettings/FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639144574023221462
+  lastModified: 639167725341366374
   FileSizes:
   - Name: Desktop
-    Value: 11198400
+    Value: 10048640
   Exists: 1
 --- !u!114 &-7313628557302708316
 MonoBehaviour:
@@ -94,7 +121,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1789
---- !u!114 &-6040040833390237420
+--- !u!114 &-4892512450323684687
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,14 +131,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/rpg music
+  m_Name: event:/Music/lyre usic
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/rpg music
+  Path: event:/Music/lyre usic
   Guid:
-    Data1: -1767273105
-    Data2: 1125173374
-    Data3: -1568819310
-    Data4: -32788226
+    Data1: -383728594
+    Data2: 1293760651
+    Data3: 1911251641
+    Data4: 1526538343
   Banks:
   - {fileID: -7536711130782799942}
   IsStream: 1
@@ -120,7 +147,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 82337
+  Length: 47600
 --- !u!114 &-3937508934423736657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +175,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 239491
+--- !u!114 &-2937422127754607082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footstep/620334__marb7e__footsteps_leather_wood_walk04
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Footstep/620334__marb7e__footsteps_leather_wood_walk04
+  Guid:
+    Data1: 351121980
+    Data2: 1196294978
+    Data3: 2100828837
+    Data4: 1159849232
+  Banks:
+  - {fileID: -7536711130782799942}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1250
 --- !u!114 &-2404304705403484991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,33 +249,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 47600
---- !u!114 &-1260698425750430929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/fireplace2
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/fireplace2
-  Guid:
-    Data1: 1042232321
-    Data2: 1224589912
-    Data3: 845490324
-    Data4: -683175368
-  Banks:
-  - {fileID: -7536711130782799942}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 239491
 --- !u!114 &-1054362731896863557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,6 +276,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1789
+--- !u!114 &-375662333569649130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mice/mice3
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Mice/mice3
+  Guid:
+    Data1: 2000546606
+    Data2: 1148927383
+    Data3: 961549972
+    Data4: 1917610018
+  Banks:
+  - {fileID: -7536711130782799942}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9600
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,38 +319,62 @@ MonoBehaviour:
   - {fileID: -8211460664620915187}
   - {fileID: -7536711130782799942}
   EditorEvents:
-  - {fileID: 2229434645177243581}
-  - {fileID: 5810433847251205501}
   - {fileID: -1054362731896863557}
-  - {fileID: 7538381720997493278}
-  - {fileID: -1260698425750430929}
-  - {fileID: -8326742305547672594}
-  - {fileID: 8661821473020294787}
-  - {fileID: -6040040833390237420}
+  - {fileID: 1418719638979566941}
+  - {fileID: -4892512450323684687}
+  - {fileID: 5006533002403677556}
+  - {fileID: 3965105170719649140}
+  - {fileID: 5009144659318157983}
+  - {fileID: 4189229734673010295}
+  - {fileID: 908272305177633527}
+  - {fileID: -2937422127754607082}
+  - {fileID: -7660703093805128661}
+  - {fileID: -8350342417408951285}
+  - {fileID: 544131833847617140}
+  - {fileID: -375662333569649130}
+  - {fileID: 8569436085611296013}
+  - {fileID: 4561262716239836190}
+  - {fileID: 8804236679181093575}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7536711130782799942}
   StringsBanks:
   - {fileID: -8211460664620915187}
   cacheVersion: 131859
-  cacheTime: 639144574023236874
+  cacheTime: 639167725341376384
   SerializableEventsDict:
-  - key: event:/lyre usic
-    index: 0
-  - key: event:/New Folder/fireplace
-    index: 1
   - key: event:/door open
+    index: 0
+  - key: event:/Fireplace/fireplace2
+    index: 1
+  - key: event:/Music/lyre usic
     index: 2
-  - key: event:/forest ambient
+  - key: event:/Fireplace/fireplace
     index: 3
-  - key: event:/fireplace2
+  - key: event:/Ambient/forest ambient
     index: 4
-  - key: event:/wood foostep
+  - key: event:/Footstep/421153__giocosound__footstep_wood_toe_1 (1)
     index: 5
-  - key: event:/tavern ambient loop
+  - key: event:/Music/rpg music
     index: 6
-  - key: event:/rpg music
+  - key: event:/Footstep/197778__sgossner__footstep-on-stone
     index: 7
+  - key: event:/Footstep/620334__marb7e__footsteps_leather_wood_walk04
+    index: 8
+  - key: event:/Footstep/wood foostep
+    index: 9
+  - key: event:/Footstep/340983__soundsaregr8__footstep-on-wood
+    index: 10
+  - key: event:/Jump/667299__pekena_larva__voc_male_land_03
+    index: 11
+  - key: event:/Mice/mice3
+    index: 12
+  - key: event:/Mice/mice4
+    index: 13
+  - key: event:/Mice/mice2
+    index: 14
+  - key: event:/Mice/mice
+    index: 15
 --- !u!114 &240313593880830692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,7 +402,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 121250
---- !u!114 &2229434645177243581
+--- !u!114 &544131833847617140
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -334,24 +412,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/lyre usic
+  m_Name: event:/Jump/667299__pekena_larva__voc_male_land_03
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/lyre usic
+  Path: event:/Jump/667299__pekena_larva__voc_male_land_03
   Guid:
-    Data1: -383728594
-    Data2: 1293760651
-    Data3: 1911251641
-    Data4: 1526538343
+    Data1: -344921760
+    Data2: 1094829498
+    Data3: -1483801711
+    Data4: -1317168792
   Banks:
   - {fileID: -7536711130782799942}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 47600
---- !u!114 &5810433847251205501
+  Length: 1500
+--- !u!114 &908272305177633527
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -361,24 +439,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/New Folder/fireplace
+  m_Name: event:/Footstep/197778__sgossner__footstep-on-stone
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/New Folder/fireplace
+  Path: event:/Footstep/197778__sgossner__footstep-on-stone
   Guid:
-    Data1: 2057059135
-    Data2: 1195748340
-    Data3: 1086633609
-    Data4: -2029722705
+    Data1: 1113749796
+    Data2: 1204613302
+    Data3: 626290614
+    Data4: 1057969814
   Banks:
   - {fileID: -7536711130782799942}
-  IsStream: 1
-  Is3D: 1
+  IsStream: 0
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 239491
---- !u!114 &7538381720997493278
+  Length: 466
+--- !u!114 &1418719638979566941
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -388,9 +466,36 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/forest ambient
+  m_Name: event:/Fireplace/fireplace2
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/forest ambient
+  Path: event:/Fireplace/fireplace2
+  Guid:
+    Data1: 1042232321
+    Data2: 1224589912
+    Data3: 845490324
+    Data4: -683175368
+  Banks:
+  - {fileID: -7536711130782799942}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 239491
+--- !u!114 &3965105170719649140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/forest ambient
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambient/forest ambient
   Guid:
     Data1: 1357924048
     Data2: 1192124777
@@ -405,7 +510,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 121250
---- !u!114 &8661821473020294787
+--- !u!114 &4189229734673010295
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -415,14 +520,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/tavern ambient loop
+  m_Name: event:/Music/rpg music
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/tavern ambient loop
+  Path: event:/Music/rpg music
   Guid:
-    Data1: -694893901
-    Data2: 1196136804
-    Data3: -78245473
-    Data4: 110931458
+    Data1: 1774598422
+    Data2: 1126809257
+    Data3: 1198030001
+    Data4: 609201750
   Banks:
   - {fileID: -7536711130782799942}
   IsStream: 1
@@ -431,7 +536,115 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 120000
+  Length: 82337
+--- !u!114 &4561262716239836190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mice/mice2
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Mice/mice2
+  Guid:
+    Data1: 1083620943
+    Data2: 1155187199
+    Data3: -1054000737
+    Data4: -676161775
+  Banks:
+  - {fileID: -7536711130782799942}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1266
+--- !u!114 &5006533002403677556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fireplace/fireplace
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Fireplace/fireplace
+  Guid:
+    Data1: 2057059135
+    Data2: 1195748340
+    Data3: 1086633609
+    Data4: -2029722705
+  Banks:
+  - {fileID: -7536711130782799942}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 239491
+--- !u!114 &5009144659318157983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footstep/421153__giocosound__footstep_wood_toe_1 (1)
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Footstep/421153__giocosound__footstep_wood_toe_1 (1)
+  Guid:
+    Data1: -587329259
+    Data2: 1296827645
+    Data3: -1629613149
+    Data4: -1368110226
+  Banks:
+  - {fileID: -7536711130782799942}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 164
+--- !u!114 &8569436085611296013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mice/mice4
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Mice/mice4
+  Guid:
+    Data1: 1677058894
+    Data2: 1247915584
+    Data3: -1303875672
+    Data4: -658072520
+  Banks:
+  - {fileID: -7536711130782799942}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4583
 --- !u!114 &8797378393574662200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -452,3 +665,30 @@ MonoBehaviour:
   - Name: Desktop
     Value: 918
   Exists: 1
+--- !u!114 &8804236679181093575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mice/mice
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Mice/mice
+  Guid:
+    Data1: 347320010
+    Data2: 1200663245
+    Data3: -1453827150
+    Data4: 1742035128
+  Banks:
+  - {fileID: -7536711130782799942}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13444

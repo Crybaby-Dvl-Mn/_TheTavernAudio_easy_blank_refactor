@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{de24638c-0831-4349-825e-47020b4c508b}">
+		<property name="assetPath">
+			<value>mice4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.5830624999999996</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3ba66a83-ae70-4863-8c38-2b2fd7ac9f34}</destination>
+		</relationship>
+	</object>
+</objects>

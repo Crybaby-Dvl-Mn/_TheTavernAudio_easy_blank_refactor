@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{712ef401-6406-484c-992f-e62498911fc4}">
+	<object class="AudioFile" id="{13546ce3-54b7-4c54-8fbb-a88bcbbd1a78}">
 		<property name="assetPath">
-			<value>197778__sgossner__footstep-on-stone.wav</value>
+			<value>421153__giocosound__footstep_wood_toe_1 (1).wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.46650793650793648</value>
+			<value>0.16479166666666667</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{3ba66a83-ae70-4863-8c38-2b2fd7ac9f34}</destination>
